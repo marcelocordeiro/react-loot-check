@@ -29,6 +29,7 @@ ShallowWrapper {
           Powered by 
           <a
             href="https://www.coindesk.com/price"
+            rel="noopener noreferrer"
             target="_blank"
           >
             Coindesk
@@ -94,6 +95,7 @@ ShallowWrapper {
             "Powered by ",
             <a
               href="https://www.coindesk.com/price"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Coindesk
@@ -110,6 +112,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Coindesk",
               "href": "https://www.coindesk.com/price",
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -140,6 +143,7 @@ ShallowWrapper {
             Powered by 
             <a
               href="https://www.coindesk.com/price"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Coindesk
@@ -205,6 +209,7 @@ ShallowWrapper {
               "Powered by ",
               <a
                 href="https://www.coindesk.com/price"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 Coindesk
@@ -221,6 +226,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Coindesk",
                 "href": "https://www.coindesk.com/price",
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
