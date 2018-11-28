@@ -6,6 +6,7 @@
     "react-redux": "^5.1.1",
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "sfcookies": "^1.0.2"
   },
   "scripts": {
@@ -26,9 +27,18 @@
   "devDependencies": {
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
+    "fetch-mock": "^7.2.5",
     "jest-cli": "^20.0.4",
+    "node-fetch": "^2.3.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-test-renderer": "^16.6.3"
+    "react-test-renderer": "^16.6.3",
+    "redux-mock-store": "^1.5.3"
+  },
+  "jest" : {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ]
   }
 }
